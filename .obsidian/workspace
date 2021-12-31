@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "6d2c4ad54d460410",
+    "type": "split",
+    "children": [
+      {
+        "id": "b886ffee545b2d0b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Java.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c83df86d94ae9e1f",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa0e28f43a89a924",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e3b77dbe935e30e8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "928e3232cc05c2cb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5e8daaac2752c82d",
+    "type": "split",
+    "children": [
+      {
+        "id": "5283c9f7b9fc4b34",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a5f655b32e718f8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Java.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "b886ffee545b2d0b",
+  "lastOpenFiles": [
+    "Java.md",
+    "README.md"
+  ]
+}
