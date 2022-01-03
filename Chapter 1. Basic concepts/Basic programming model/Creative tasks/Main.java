@@ -8,16 +8,8 @@ import edu.princeton.cs.algs4.StdDraw;
 public class Main {
 
     public static void main(String[] args) {
-        Random random = new Random();
-
-        System.out.println(factorial(3));
-        int[] primes = PrimeNumberGenerator.generatePrimeNumbers(30);
-        final int M = 10;
-        final int N = 10;
-        double[][] a = {{-1,-1},{2,0},{3,0}};
-        double[][] b = {{1,1},{2,0}};
-        double[][] c = Matrix.mult(a,b);
-        Matrix.printMatrix(a);
+        String[] str = {"HELLO WORLD","Hello java","Egor","Ivan"};
+        Sattolo.main(str);
     }
     //1.1.13
     public static int[][] transpos(int [][]a, int N, int M){
@@ -74,37 +66,32 @@ public class Main {
     }
 
     //1.1.20
-    public static double factorial(int n)
+    private static int factorial(int number)
     {
-        if(n <= 1)
+        if(number<= 1)
             return 1;
-        return Math.log(factorial(n-1)) + Math.log((double) n);
+        return factorial(number-1) * number;
     }
-
-    /*
-    public static double ln(int n)
+    public static double ln(int number)
     {
-
+        return Math.log((double) factorial(number));
     }
-
-     */
-    //1.1.21
 
     //1.1.30
     public static void logicMatrix(boolean[][] matrix)
     {
-        for(int raw = 0; raw < matrix.length; ++raw)
-            Arrays.fill(matrix[raw],false);
-        for(int raw = 0; raw < matrix.length; ++raw)
-            for(int column = 0; column < matrix[raw].length; ++column)
-
+        for(int row = 0; row < matrix.length; ++row)
+            Arrays.fill(matrix[row],false);
+        for(int row = 0; row < matrix.length; ++row)
+            for(int column = 0; column < matrix[row].length; ++column)
+                if(gcd(row,column) == 1)
+                    matrix[row][column] = true;
     }
 
-    private static boolean IsPrimeIndex(int value, int[] massive)
-    {
-        boolean flag = false;
-        for(int index = 0; index < massive.length; ++index)
-            if(value == massive[])
+    static public int gcd(int p, int q) {
+        if (q == 0) return p;
+        int r = p % q;
+        return gcd(q, r);
     }
 
 }

@@ -42,8 +42,7 @@ public class Matrix {
 
     private static void fill(double[][] matrix)
     {
-        for(int row = 0; row < matrix.length; ++row)
-            Arrays.fill(matrix[row], 0);
+        for (double[] row : matrix) Arrays.fill(row, 0);
     }
 
     public static void printMatrix(double[][] matrix)
