@@ -8,8 +8,7 @@ import edu.princeton.cs.algs4.StdDraw;
 public class Main {
 
     public static void main(String[] args) {
-        String[] str = {"HELLO WORLD","Hello java","Egor","Ivan"};
-        Sattolo.main(str);
+        RightTriangle.rightTriangle();
     }
     //1.1.13
     public static int[][] transpos(int [][]a, int N, int M){
