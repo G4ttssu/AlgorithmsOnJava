@@ -1,8 +1,6 @@
 package com.company;
 import edu.princeton.cs.algs4.StdDraw;
 
-import java.util.Random;
-
 public class RightTriangle {
     public static void rightTriangle()
     {

@@ -6,8 +6,7 @@ public class Sattolo {
 
     public static void main(Object[] str)
     {
-        for(int i = 0; i < str.length; ++i)
-            System.out.println(str[i]);
+        for (Object o : str) System.out.println(o);
         Random random = new Random();
         for(int index = 0; index < str.length; ++index)
         {
@@ -20,7 +19,6 @@ public class Sattolo {
             }
         }
         System.out.println();
-        for(int i = 0; i < str.length; ++i)
-            System.out.println(str[i]);
+        for (Object o : str) System.out.println(o);
     }
 }

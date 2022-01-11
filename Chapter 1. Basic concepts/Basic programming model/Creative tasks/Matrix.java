@@ -1,4 +1,6 @@
 package com.company;
+import edu.princeton.cs.algs4.StdOut;
+
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
@@ -14,11 +16,19 @@ public class Matrix {
         return result;
     }
 
-    /*
     public static double[][] createNewJaggedMatrix(int rows)
     {
+        Scanner scanner = new Scanner(System.in);
+        double[][] matrix = new double[rows][];
+        for(int index = 0; index < matrix.length; ++index)
+        {
+            StdOut.print("Enter the number of rows for the" + (index +1) + " column");
+            int columns = scanner.nextInt();
+            matrix[index] = new double[columns];
+        }
+        return matrix;
     }
-    */
+
 
     public static double[][] createNewMatrix(int rows, int columns)
     {

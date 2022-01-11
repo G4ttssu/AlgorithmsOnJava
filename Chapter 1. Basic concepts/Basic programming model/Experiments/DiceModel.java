@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Random;
 
-public class diceModel {
+public class DiceModel {
     public static void model()
     {
         final int SIDES = 6;
